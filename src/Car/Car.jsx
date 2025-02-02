@@ -1,14 +1,9 @@
 import React from "react";
-import "./Car.css";
 
-function Car({ cars } = "mavjud emas") {
+function Car({ cars }) {
   return (
     <div>
-      {
-        <p>
-          <b>Cars:</b> {cars.join(", ")}
-        </p>
-      }
+      <p>Cars: {cars.join(", ")}</p>
     </div>
   );
 }
