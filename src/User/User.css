@@ -1,0 +1,12 @@
+.UserCard {
+  width: 250px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 1px 2px 4px hsl(220deg 60% 50%);
+  padding: 10px;
+  background-color: #f0f3f4;
+}
+.UserCard img {
+  border-radius: 10px;
+  width: 100%;
+}
