@@ -1,13 +1,16 @@
 import React from "react";
+import "./Address.css";
 
-function Address({ address }) {
+function Address(props) {
+  const { region, zip } = props;
   return (
-    <div>
+    <div className="AdressWrapper">
+      <h3>Adress:</h3>
       <p>
-        <b>Region:</b> {address.region}
+        <b>Region:</b> {region}
       </p>
       <p>
-        <b>ZIP code:</b> {address.zip}
+        <b>ZIP code:</b> {zip}
       </p>
     </div>
   );

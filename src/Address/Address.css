@@ -1,0 +1,7 @@
+.AdressWrapper {
+  margin: 0;
+}
+.AdressWrapper p {
+  font-weight: bold;
+  color: rgb(27, 27, 27);
+}

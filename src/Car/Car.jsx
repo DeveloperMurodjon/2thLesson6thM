@@ -1,9 +1,10 @@
 import React from "react";
 
-function Car({ cars }) {
+function Car(props) {
+  const { car } = props;
   return (
     <div>
-      <p>Cars: {cars.join(", ")}</p>
+      <p>{car}</p>
     </div>
   );
 }
